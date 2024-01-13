@@ -11,7 +11,7 @@ Este proyecto implementa el clásico juego de Tres en Raya (Tic-Tac-Toe) en Pyth
 ## Requisitos 
 * Python 3.9
 * Biblioteca necesaria: tkinter, Pillow.
-###Puede instalar la biblioteca utilizando el siguiente comando en la terminal:
+### Puede instalar la biblioteca utilizando el siguiente comando en la terminal:
 ```
 pip install tk
 ```
