@@ -1,5 +1,5 @@
-# Mi primer bot de telegram con telebot
-![Image text](https://github.com/NahomiVilla/TelegramBot/blob/main/imagen.jpg?raw=true)
+# 3enRaya
+![Image text](https://github.com/NahomiVilla/3enRaya/blob/main/Imagen%20de%20WhatsApp%202024-01-13%20a%20las%2014.13.12_49ea6043.jpg)
 ## Tabla de Contenido
 - [Descripción 📜](#descripción-)
 - [Requisitos 📋](#requisitos-)
