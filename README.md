@@ -1,10 +1,10 @@
 # 3enRaya
 ![Image text](https://github.com/NahomiVilla/3enRaya/blob/main/imagen.jpg)
 ## Tabla de Contenido
-- [Descripción 📜](#descripción-)
-- [Requisitos 📋](#requisitos-)
-- [Caracteristicas](#caracteristicas-)
-- [Configuración](#configuracion-)
+- [Descripción 📜](#Descripción-)
+- [Requisitos 📋](#Requisitos-)
+- [Caracteristicas](#Caracteristicas-)
+- [Configuración](#Configuración-)
 
 ## Descripción
 Este proyecto implementa el clásico juego de Tres en Raya (Tic-Tac-Toe) en Python, con una interfaz gráfica de usuario (GUI) construida con la biblioteca Tkinter. El juego cuenta con una pantalla principal en la que los jugadores pueden realizar sus movimientos haciendo clic en los botones dispuestos en un tablero de 3x3.
