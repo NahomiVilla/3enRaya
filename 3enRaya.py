@@ -29,7 +29,7 @@ class TresEnRaya:
         self.iniciar_button = tk.Button(self.background_label, text="Iniciar Juego", command=self.confirmacion_cambio_imagen,font=("Helvetica", 24), width=15, height=3)
         self.iniciar_button.place(relx=0.5, rely=0.5, anchor="center")
         
-        self.cronometro=Cronometro(60)#5minutos
+        self.cronometro=Cronometro(18000)#5horas
     def seleccion_imagen(self):
         self.ventana_confirmacion_cambio.destroy()
         self.menu_desplegable=CrearMenuDesplegable(self.background_label)
@@ -93,7 +93,7 @@ class TresEnRaya:
      
     def pedir_contraseña(self):
         self.ventana_confirmacion_cambio.destroy()
-        self.generador=GeneradorContraseñas('nahomyvillag7@gmail.com', 'daleikxdjjcgrhaw', 'nahomyvillag2@gmail.com')
+        self.generador=GeneradorContraseñas('correo_emisor', 'clave_del_correo', 'correo_destinatario')
         self.contraseña_generada=self.generador.generar_contraseña_mensual()
         if self.contraseña_generada:
             self.generador.enviar_correo_gmail('Nueva Contraseña Mensual', self.contraseña_generada)
