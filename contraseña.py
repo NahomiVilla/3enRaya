@@ -57,9 +57,4 @@ class GeneradorContraseñas:
             server.login(self.correo_emisor, self.contraseña_emisor)
             server.sendmail(self.correo_emisor, self.correo_destinatario, msg.as_string())
 
-# Ejemplo de uso de la clase
-#generador = GeneradorContraseñas(correo_emisor, 'daleikxdjjcgrhaw', 'nahomyvillag2@gmail.com')
-#nueva_contraseña = generador.generar_contraseña_mensual()
 
-#if nueva_contraseña:
-#    generador.enviar_correo_gmail('Nueva Contraseña Mensual', nueva_contraseña)
